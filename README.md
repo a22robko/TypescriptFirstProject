@@ -67,7 +67,44 @@ export default defineConfig([
         tsconfigRootDir: import.meta.dirname,
       },
       // other options...
+
+
     },
   },
 ])
 ```
+---
+🏬 Store Page
+
+This page displays a product catalog including Laptop, Headphones, and Keyboard.
+Each product card shows a short description, price, and an “Add to cart” button.
+Users can easily browse and select the items they want to purchase.
+The Shopping Cart section below dynamically updates as items are added.
+<img width="875" height="1023" alt="image" src="https://github.com/user-attachments/assets/565df841-4ff4-41b0-99f6-9a774ba23248" />
+
+---
+
+🛍️ Shopping Cart
+This section shows the shopping cart after adding several products.
+Each item displays its name, quantity, and price.
+The user can increase or decrease the quantity of products using + / – buttons.
+The total amount is automatically recalculated in real time.
+There is also a “Clear cart” button to remove all items from the cart.
+<img width="857" height="1525" alt="image" src="https://github.com/user-attachments/assets/21b91e47-472c-4569-a93e-b26e1474142e" />
+
+---
+💳 Checkout Page
+
+The Checkout page allows the user to enter delivery information such as name, email, address, ZIP code, and city.
+On the right side, an Order summary displays all items from the cart with the total cost.
+This layout provides a clear overview before finalizing the order.
+
+<img width="851" height="1359" alt="image" src="https://github.com/user-attachments/assets/b6c14e89-306d-458c-accf-a5639390fdfa" />
+
+---
+
+⚠️ Form Validation
+The application includes input validation to ensure correct form data.
+For example, when entering an invalid email address, a message appears reminding the user to include an “@” symbol.
+This prevents submission of incorrect or incomplete information and improves overall usability.
+<img width="851" height="1258" alt="image" src="https://github.com/user-attachments/assets/d1b3c71b-382c-4309-859f-f03b1ac6e98c" />
