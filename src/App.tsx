@@ -1,9 +1,10 @@
 import { useState } from "react";
 import CartView from "./components/CartView";
 import ProductCard from "./components/ProductCard";
-import Checkout from "./pages/checkout";
+import Checkout from "./pages/checkout";   // 🔹 Lägg till den här raden
 import { PRODUCTS, type Product } from "./data/products";
 import "./App.css";
+
 
 type Cart = Record<number, number>;
 type Page = "shop" | "checkout";
